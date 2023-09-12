@@ -27,7 +27,6 @@ public:
 
 };
 
-
 /*---GetType---*/
 
 int		checkIndetermination(std::string str);
