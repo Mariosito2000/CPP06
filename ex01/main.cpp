@@ -19,5 +19,7 @@ int	main()
 	std::cout << "RESULT PTR: " << result << "\n";
 
 	std::cout << "Result -> " << result->_phrase << "\n";
+	
+	delete ptr;
 	return (0);
 }
