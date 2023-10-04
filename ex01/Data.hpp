@@ -6,25 +6,8 @@
 
 struct Data
 {
-
-public:
-
 	int			_value;
 	std::string	_phrase;
-
-/*---CONS/DES---*/
-
-	Data();
-	~Data();
-
-	Data(const Data &);
-
-/*---MEMBER FUNCTIONS---*/
-
-/*---OPERATORS---*/
-
-	Data & operator = (const Data &);
-
 };
 
 #endif

@@ -9,8 +9,7 @@ WHITE   := \033[0;37m
 RESET   := \033[0m
 
 SOURCES	=	main.cpp\
-			Serializer.cpp\
-			Data.cpp
+			Serializer.cpp
 
 OBJS	=	$(SOURCES:.cpp=.o)
 
